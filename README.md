@@ -1,2 +1,2 @@
 # API-REST-Flask
-Uma API simples desenvolvida na linguagem flask
+Uma API simples desenvolvida com auxílio do framework flask
