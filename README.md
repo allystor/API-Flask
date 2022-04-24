@@ -3,7 +3,7 @@
 
 ao iniciar o arquivo basta criar o ambiente virtual e instalar o Flask utilizando o comando:
 
- <blockquote>pip install flask
+ <blockquote>pip install flask</blockquote>
 
 #### obs:
 
