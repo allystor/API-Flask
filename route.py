@@ -23,9 +23,11 @@ def cadastro():
     elif("senha" not in body):
         return Resposta(400, "O senha é obrigatorio")
 
-    usuario = novoUsuario(body["nome"], body["email"], body["senha"])
+    usuario = novoUsuario(body["nome"], body["cpf"], body["email"], body["senha"])
 
-    return Resposta(200, "Usuario criado", "user" ,usuario)
+    print(body)
+
+    return Resposta(200, "Usuario criado", "user" ,usuario), body
 
 def Resposta(status, mensagem, nome=False, conteudo=False):
     response = {}
