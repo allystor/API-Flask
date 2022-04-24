@@ -7,4 +7,4 @@ ao iniciar o arquivo basta criar o ambiente virtual e instalar o Flask utilizand
 
 #### obs:
 
-as operações deste código pode ser visualizado através de  plataformas de APIS como o postman
+as operações deste código pode ser visualizado através de  plataformas de APIS como o postman.
